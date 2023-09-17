@@ -1,14 +1,3 @@
-def get_my_custom_capabilities():
-    return {
-        "platformName": "Android",
-        "appium:deviceName": "6926d9cb",
-        "appium:automationName": "UiAutomator2",
-        "appium:appPackage": "com.ajaxsystems",
-        "appium:appActivity": "com.ajaxsystems.ui.activity.LauncherActivity",
-        "appium:autoGrantPermissions": True
-    }
-
-
 def android_get_desired_capabilities():
     return {
         'autoGrantPermissions': True,
